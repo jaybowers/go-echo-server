@@ -1,7 +1,10 @@
 # Quick Start
 
-* `mkdir -p ~/go && cd ~/go`
-* `mkdir -p src/forgerock.com`
-* `git clone https://github.com/jay-bowers/go-echo.git src/forgerock.com/echo-server`
-* `go build forgerock.com/echo-server`
-* `./echo-server'
+```
+mkdir -p ~/go && \
+    cd ~/go` && \
+    mkdir -p src/forgerock.com` && \
+    git clone git@github.com:jaybowers/go-echo-server.git src/forgerock.com/go-echo-server` && \
+    go build forgerock.com/go-echo-server` && \
+    ./go-echo-server'
+```
